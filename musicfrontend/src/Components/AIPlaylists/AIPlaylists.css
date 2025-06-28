@@ -1,0 +1,66 @@
+.AIPlaylists{
+    display:flex;
+    flex-direction: column;
+    width:50vw;
+    gap:30px;
+    margin-top: 50px;
+    margin-left:100px;
+    background-color: #180234;
+    padding: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom:20px;
+     transition: transform 0.3s ease;
+}
+
+.AIPlaylists:hover{
+    transform: scale(1.1);
+}
+
+.AIPlaylists h2{
+    color:white;
+}
+
+.Playlist{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #d096ff;
+    border-radius: 5px;
+}
+
+.Playlist_type{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.Playlist_type_text{
+     color:white;
+    background-color:  #57029e;
+    height: auto;
+    font-size: 23px;
+    font-weight: 400;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+}
+.TrackNo{
+     display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.TrackNo_text{
+  color:white;
+    background-color:  #57029e;
+    height: auto;
+    font-size: 23px;
+    font-weight: 400;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+}
+.GPButton{
+    height:50px;
+}

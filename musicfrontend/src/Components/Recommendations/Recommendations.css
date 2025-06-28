@@ -1,0 +1,46 @@
+.Recommendations{
+    display:flex;
+    flex-direction: column;
+    width:50vw;
+    gap:30px;
+    margin-top: 50px;
+    margin-left:700px;
+    background-color:#180234;
+    padding: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom:20px;
+     transition: transform 0.3s ease;
+}
+
+.Recommendations:hover{
+    transform: scale(1.1);
+}
+
+.Recommendations h2{
+    color:white;
+}
+
+.Listening_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     padding:10px;
+    background-color:#d096ff;
+    border-radius: 5px;
+}
+
+.Listening_content_text{
+     color:white;
+    background-color: #57029e;
+    height: auto;
+    font-size: 23px;
+    font-weight: 400;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+}
+.GRButton{
+    height:50px;
+}

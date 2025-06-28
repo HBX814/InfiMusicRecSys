@@ -1,0 +1,98 @@
+.RateATrack{
+    display:flex;
+    flex-direction: column;
+    width:50vw;
+    gap:30px;
+    margin-top: 50px;
+    margin-left:100px;
+    background-color: #180234;
+    padding: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom:20px;
+     transition: transform 0.3s ease;
+}
+
+.RateATrack:hover{
+    transform: scale(1.1);
+}
+
+.RateATrack h2{
+    color:white;
+}
+
+.Track{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color:#d096ff;
+    border-radius: 5px;
+}
+.TrackNumber{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.TrackNumberText{
+    color:white;
+    background-color:  #57029e;
+    height: auto;
+    font-size: 23px;
+    font-weight: 400;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+}
+.Rating{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.RatingText{
+    color:white;
+    background-color:  #57029e;
+    height: auto;
+    font-size: 23px;
+    font-weight: 400;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+}
+.Context{
+display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.ContextText{
+    color:white;
+    background-color:  #57029e;
+    height: auto;
+    font-size: 23px;
+    font-weight: 400;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+}
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #57029e; /* Discord-like dark theme */
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: fit-content;
+  color: white;
+}
+
+.counter-value {
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+}
+
+.RTButton{
+    height:50px;
+}
