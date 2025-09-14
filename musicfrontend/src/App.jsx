@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './App.css'
 import Navbar from './Components/Navbar/Navbar'
+<<<<<<< HEAD
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import SetupHome from './Pages/SetupHome'
 import SmartSearch from './Pages/SmartSearch'
@@ -28,8 +29,37 @@ function App() {
           </Routes>
         </BrowserRouter>
       </AuthProvider>
+=======
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import SetupHome from './Pages/SetupHome';
+import SmartSearch from './Pages/SmartSearch';
+import SmartPlaylists from './Pages/SmartPlaylists'
+import Analytics from './Pages/Analytics';
+import MusicPlayer from './Pages/MusicPlayer';
+import EnhancedFeautures from './Pages/EnhancedFeautures';
+function App() {
+ 
+
+  return (
+    <>
+    <BrowserRouter>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<SetupHome/>} />
+        <Route path='/smartsearch' element={<SmartSearch/>} />
+        <Route path='/smartplaylists' element={<SmartPlaylists/>} />
+        <Route path='/analytics' element={<Analytics/>} />
+        <Route path='/musicplayer'element={<MusicPlayer/>} />
+        <Route path='/enhancedfeatures' element={<EnhancedFeautures/>} />
+      </Routes>
+    </BrowserRouter>
+>>>>>>> fed7901a2c000602d6bef5c50efc6dd76f7955be
     </>
   )
 }
 
+<<<<<<< HEAD
 export default App
+=======
+export default App
+>>>>>>> fed7901a2c000602d6bef5c50efc6dd76f7955be
