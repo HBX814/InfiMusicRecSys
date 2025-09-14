@@ -286,10 +286,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Open source libraries and frameworks used
 - Dataset providers for music data
 
-## 📞 Support
-
-For support, email support@musicapp.com or create an issue in the repository.
-
----
-
-**Built with ❤️ using React, Node.js, and AI**
