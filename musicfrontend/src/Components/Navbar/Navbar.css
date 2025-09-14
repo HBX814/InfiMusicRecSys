@@ -1,0 +1,117 @@
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding:16px;
+    box-shadow:0 1px 3px -2px black;
+    height:75px;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nav_logo p{
+    font-size: 24px;
+    font-weight:600;
+    color: #b700ff;
+}
+.nav_logo img {
+  width: 70px;  
+  height: auto;  
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    color:#333;
+    font-weight: 100;
+}
+.nav_menu li{
+    color:#b500fc;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    cursor:pointer;
+     transition: transform 0.3s ease;
+}
+
+.nav_menu li:hover{
+    transform: scale(1.1);
+}
+.nav_menu li a{
+    color:#b500fc;
+}
+.nav_menu li hr{
+    border: none;
+    height:3px;
+    width:90%;
+    border-radius: 10px;
+    background-color: white;
+}
+.drop_list li hr{
+    border: none;
+    height:3px;
+    width:50%;
+    border-radius: 10px;
+    background-color: black;
+}
+.others_icon{
+    color:#b700ff;
+    top: 20px;
+    font-size:50px;
+    cursor:pointer;
+     transition: transform 1s ease-out;
+}
+
+.others_icon:hover{
+    transform: scale(1.1);
+}
+.drop_list{
+    padding-left:5px;
+}
+.nav_others{
+     height:80px;
+    width:200px;
+    position:absolute;
+    top:85px;
+    left:1400px;
+    border-radius: 10px;
+    background-color:aliceblue;
+    box-shadow: 1px 3px 5px gray;
+    visibility: hidden;
+    transition-property: all;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+.dropdown li:hover{
+    background-color:rgb(216, 234, 250);
+}
+.dropdown li{
+     display:flex;
+    align-items: center;
+    height:40px;
+    width:190px;
+    list-style-type: none;
+    font-family: sans-serif;
+   border-radius: 10px;
+   padding-left: 5px;
+   gap:10px;
+}
+.dropdown{
+    display:flex;
+flex-wrap:wrap; 
+}
+.others_icon:hover+.nav_others{
+    visibility: visible;
+}
+.nav_others:hover{
+    visibility: visible;
+}
+.drop_list li a{
+    color:#540076
+}

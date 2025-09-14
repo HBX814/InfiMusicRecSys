@@ -1,0 +1,94 @@
+
+
+.SystemSetup{
+    display:flex;
+    flex-direction: column;
+    width:50vw;
+    gap:30px;
+    margin-top: 50px;
+    margin-left:100px;
+    background-color: #180234;
+    padding: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom:20px;
+    transition: transform 0.3s ease;
+}
+
+.SystemSetup:hover{
+    transform: scale(1.1);
+}
+
+.SystemSetup h2{
+    color:white;
+}
+
+.dataset{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding:10px;
+    background-color: #d096ff;
+    border-radius: 5px;
+}
+.dataset_path{
+    color:white;
+    background-color: #57029e;
+    height: auto;
+    font-size: 23px;
+    font-weight: 400;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.spotify_client{
+    display:flex;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color:#d096ff;
+    display: flex;
+    gap:90px;
+    }
+ .spotify_client_ID{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+.spotify_client_secret{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+ .spotify_client_ID_text{
+    color:white;
+    background-color:  #57029e;
+    height: auto;
+    font-size: 23px;
+    font-weight: 400;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+ }  
+ 
+ .spotify_client_secret_text{
+     color:white;
+     background-color: #57029e;
+    height: auto;
+    font-size: 23px;
+    font-weight: 400;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+ }
+ .SSButton{
+    height:50px;
+ }
